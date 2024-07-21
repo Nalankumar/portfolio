@@ -5,8 +5,7 @@ import Projects from './components/projects/Projects.jsx'
 function App() {
   return (
     <div className='w-full text-white bg-gradient-to-bl from-[#1639b8] to-[#070F2B] grid cols-1 font-poppins'>
-     <p>Hello</p>
-     <Nav />  
+      <Nav />  
       <Herosection />
       <Projects />
     </div>

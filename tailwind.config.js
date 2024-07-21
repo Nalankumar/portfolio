@@ -7,6 +7,11 @@ module.exports = {
           poppins: ['Poppins','sans-serif'],
         },
       },
+      daisyui:{
+        themes: ['light', 'dark']
+      }
     },
-    plugins: [],
+    plugins: [
+      require('daisyui'),
+    ],
   }
