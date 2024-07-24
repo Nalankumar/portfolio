@@ -16,22 +16,27 @@ export const data = {
     projects: [
         {
             name: "MovieAPI",
+            img: "/assets/projects/netflix.jpg",
             github: "https://github.com/Nalankumar/MovieApi",
         },
         {
             name: "HR Management System",
+            img: "/assets/movieapi.jpg",
             github: "https://github.com/Nalankumar/HRMS"
         },
         {
             name: "Number Guessing Game",
+            img: "/assets/movieapi.jpg",
             github: "https://github.com/Nalankumar/Number_Guessing_Game"
         },
         {
             name: "Netflix Landing Page Clone",
+            img: "/assets/projects/netflix.jpeg",
             github: "https://github.com/Nalankumar/Netflix_clone"
         },
         {
             name: "Netflix clone",
+            img: "/assets/movieapi.jpg",
             github: "githublink"
         }
     ],

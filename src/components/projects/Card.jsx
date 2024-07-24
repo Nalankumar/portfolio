@@ -1,5 +1,5 @@
 
-export default function Card({name, imgurl,githuburl}){
+export default function Card({name, imgurl, githuburl}){
     return (
             <div className="card bg-base-100 w-96 shadow-xl">
                 <figure className="px-10 pt-10">
@@ -19,5 +19,4 @@ export default function Card({name, imgurl,githuburl}){
                     </div>
                 </div>
             </div>
-
 );}
