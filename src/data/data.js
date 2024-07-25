@@ -31,7 +31,7 @@ export const data = {
         },
         {
             name: "Netflix Landing Page Clone",
-            img: "/assets/projects/netflix.jpeg",
+            img: "./assets/projects/netflix.png",
             github: "https://github.com/Nalankumar/Netflix_clone"
         },
         {

@@ -21,12 +21,8 @@ export default function Herosection() {
       </div>
        <div>
          <img className='aspect-auto h-[30vh] md:h-[40vh] rounded-tr-[55%] rounded-tl-[60%] rounded-bl-[66%] rounded-br-[70%] mt-[10vh] md:mt-0 shadow-[0_3px_0_5px_#535C91]' src={photo} alt="" />
-       </div>
+       </div>       
       </div>
     </div>
-    // <div id="home" className='h-dvh flex  items-center flex-col-reverse justify-evenly bg-gradient-to-bl from-[#1639b8] to-[#070F2B] md:flex-row md:px-16'>
-    //   
-
-    // </div>
   )
 }
