@@ -1,12 +1,12 @@
 
 export default function Card({name, imgurl, githuburl}){
     return (
-            <div className="card bg-base-100 w-96 shadow-xl">
-                <figure className="px-10 pt-10">
+            <div className="card bg-primary-100 w-96 shadow-xl">
+                <figure className="px-10 pt-10 ">
                     <img
                     src = {imgurl}
                     alt = {name}
-                    className = "rounded-xl" />
+                    className = "rounded-xl h-60 w-90" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{name}</h2>

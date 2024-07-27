@@ -4,7 +4,7 @@ import Herosection from './components/herosection/Herosection.jsx'
 import Projects from './components/projects/Projects.jsx'
 function App() {
   return (
-    <div className='w-full text-white bg-gradient-to-bl from-[#1639b8] to-[#070F2B] grid cols-1 font-poppins'>
+    <div className='w-full text-white grid cols-1 font-poppins'>
       <Nav />  
       <Herosection />
       <Projects />
