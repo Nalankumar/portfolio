@@ -7,7 +7,7 @@ function App() {
     <div className='w-full text-white grid cols-1 font-poppins'>
       <Nav />  
       <Herosection />
-      <Projects />
+      {/*<Projects />*/}
     </div>
   )
 }
