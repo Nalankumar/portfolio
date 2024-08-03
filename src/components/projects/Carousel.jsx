@@ -7,8 +7,8 @@ import hrms from '../../assets/projects/hrms.png'
 
 export default function Carousel() {
     return (
-      <div className='carousel gap-3 md:gap-8'>
-          <div className='carousel-item bg-base-100 rounded-xl'>
+      <div className='carousel w-full max-w-[100vw] md:gap-8 justify-center *:mx-[5px] *:rounded-xl'>
+          <div className='carousel-item bg-base-100'>
               <Card name={data.projects[0].name} imgurl={netflix} githuburl={data.projects[0].github}/>
           </div>
           <div  className='carousel-item bg-base-100'>

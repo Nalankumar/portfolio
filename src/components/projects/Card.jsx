@@ -1,7 +1,7 @@
 
 export default function Card({name, imgurl, githuburl}){
     return (
-            <div className="card bg-primary-100 w-60 shadow-xl">
+            <div className="card bg-primary-100 w-60 md:w-80 shadow-xl">
                 <figure className="px-5 pt-5 ">
                     <img
                     src = {imgurl}
@@ -9,7 +9,7 @@ export default function Card({name, imgurl, githuburl}){
                     className = "rounded-xl h-55 w-80" />
                 </figure>
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title">{name}</h2>
+                    <h2 className="card-title text-[1rem]">{name}</h2>
                     <div className="card-actions">
                         <a href={githuburl} target="_blank" className="btn btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">

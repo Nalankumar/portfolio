@@ -1,5 +1,5 @@
 export const data = {
-    name: "Thirunalankumar V",
+    name: " Thirunalankumar V",
     role: "Full Stack Developer",
     description:"As a computer science engineering student, I am passionate about technology, driven by curiosity and innovation. I embrace challenges, expand my skills, and shape the future through dedication and ingenuity in coding.",
     resume: "https://drive.google.com/file/d/1p_UR2ny2u4TVVvX7IiHQRl0M_vAAfdlr/view?usp=drive_link",

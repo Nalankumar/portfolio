@@ -2,14 +2,14 @@ import React from 'react'
 import Logo from './Logo'
 export default function Nav() {
   return (
-    <div id="home" className="navbar bg-base-100 w-full">
+    <div id="home" className="navbar bg-base-100 w-full fixed z-20">
       <div className="flex-1">
         <Logo />
       </div>
+      {/*Navbar for smaller screens*/}
       <div className="flex justify-end drawer drawer-end w-[90%] z-10 md:hidden">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
-          {/* Page content here */}
           <label htmlFor="my-drawer" className="btn btn-circle drawer-button">
             <svg
             className="fill-current drawer-button"
@@ -18,14 +18,13 @@ export default function Nav() {
             height="25"
             viewBox="0 0 512 512">
             <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-          </svg>
+           </svg>
           </label>
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-            {/* Sidebar content here */}
           <div className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-            <div  className="btn btn-ghost">
+            <div  className="btn btn-md btn-ghost">
               <div className="indicator">
                 <a href="#home">Home</a>
               </div>
@@ -48,25 +47,26 @@ export default function Nav() {
           </div>
         </div>
       </div>
+      {/*Navbar for large screens*/}
       <div className="hidden md:block menu menu-horizontal">
-        <div className="btn btn-ghost">
+        <div className="btn btn-ghost mx-[3vw]">
               <div className="indicator">
-                <a href="#home">Home</a>
+                <a href="#home" className="md:text-xl">Home</a>
               </div>
             </div>
-            <div  className="btn btn-ghost">
+            <div  className="btn btn-ghost mx-[3vw]">
               <div className="indicator">
-                <a href="#aboutme">About me</a>
+                <a href="#aboutme" className="md:text-xl">About me</a>
               </div>
             </div>
-            <div  className="btn btn-ghost">
+            <div  className="btn btn-ghost mx-[3vw]">
               <div className="indicator">
-                <a href="#projects">Projects</a>
+                <a href="#projects" className="md:text-xl">Projects</a>
               </div>
             </div>
-            <div  className="btn btn-ghost">
+            <div  className="btn btn-ghost mx-[3vw]">
               <div className="indicator">
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="md:text-xl">Contact</a>
               </div>
             </div>
       </div>
