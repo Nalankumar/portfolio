@@ -21,7 +21,7 @@ export default function Form(){
   };
 
     return(
-		<form ref={form} onSubmit={sendEmail}  className="form-control mx-[5vw] md:mx-[20vw]">
+		<form id="form" ref={form} onSubmit={sendEmail} className="form-control mx-[5vw] md:mx-[20vw]">
 			<label className="label">Name</label>
 			<input type="text" name="user_name" placeholder="Lily" className="grow input input-bordered"/>
 			<label className="label">Email</label>
