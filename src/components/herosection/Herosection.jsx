@@ -5,7 +5,7 @@ import Social from './Social.jsx'
 
 export default function Herosection() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div id="home" className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center flex flex-col-reverse md:justify-evenly md:flex-row">
       <div className="content flex flex-col text-center pb-[10vh] px-10 md:text-left md:max-w-[50vw] md:px-0">
          <div className="md:w-[40vw]">

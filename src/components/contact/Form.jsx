@@ -47,11 +47,11 @@ export default function Form(){
     	<div>
     		<form id="form" ref={form} onSubmit={sendEmail} className="form-control mx-[5vw] md:mx-[20vw]">
 			<label className="label">Name</label>
-			<input type="text" name="user_name" placeholder="Lily" className="grow input input-bordered"/>
+			<input type="text" name="user_name" placeholder="Lily" required className="grow input input-bordered"/>
 			<label className="label">Email</label>
-			<input type="text" name="user_email" placeholder="lily@gmail.com" className="grow input input-bordered"/>
+			<input type="email" name="user_email" placeholder="lily@gmail.com" required className="grow input input-bordered"/>
 			<label className="label">Message</label>
-			<textarea name="message" placeholder="Write your message here..." className="textarea textarea-bordered textarea-sm w-full max-w-full"></textarea>
+			<textarea name="message" placeholder="Write your message here..." required className="textarea textarea-bordered textarea-sm w-full max-w-full"></textarea>
   			<button className="btn my-[10px]" type="submit" form="form"> Contact me </button>	
 			<ToastContainer
 				position="bottom-right"
