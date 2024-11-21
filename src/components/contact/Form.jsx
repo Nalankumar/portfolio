@@ -25,7 +25,6 @@ export default function Form(){
 				theme: "dark",
 				transition: Bounce,
 			});
-          console.log('SUCCESS!');
         },
         (error) => {
         	
@@ -40,7 +39,6 @@ export default function Form(){
 				theme: "dark",
 				transition: Bounce,
 			});
-          console.log('FAILED...', error);
         },
       );
   };
@@ -54,7 +52,7 @@ export default function Form(){
 			<input type="text" name="user_email" placeholder="lily@gmail.com" className="grow input input-bordered"/>
 			<label className="label">Message</label>
 			<textarea name="message" placeholder="Write your message here..." className="textarea textarea-bordered textarea-sm w-full max-w-full"></textarea>
-  			<button className="btn my-[10px]" type="submit" form="form"> Concact me</button>	
+  			<button className="btn my-[10px]" type="submit" form="form"> Contact me </button>	
 			<ToastContainer
 				position="bottom-right"
 				autoClose={5000}
