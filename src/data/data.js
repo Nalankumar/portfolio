@@ -1,8 +1,13 @@
+import Netflix from './../assets/projects/netflix.png'
+import NumberGuessingGame from './../assets/projects/ngg.jpg'
+import HRMS from './../assets/projects/hrms.png'
+import Agrohub from './../assets/projects/agrohub.png'
+
 export const data = {
     name: " Thirunalankumar V",
     role: "Full Stack Developer",
     description:"As a computer science engineering student, I am passionate about technology, driven by curiosity and innovation. I embrace challenges, expand my skills, and shape the future through dedication and ingenuity in coding.",
-    resume: "https://drive.google.com/file/d/1p_UR2ny2u4TVVvX7IiHQRl0M_vAAfdlr/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1bEhH2LzGAQDvPDFwFj_jdzIgSZihK-dr/view?usp=drive_link",
     social: {
         linkedin : "https://www.linkedin.com/in/thirunalankumar/",
         github: "https://github.com/Nalankumar",
@@ -16,28 +21,28 @@ export const data = {
     projects: [
         {
             name: "MovieAPI",
-            img: "/assets/projects/netflix.jpg",
+            img: Netflix,
             github: "https://github.com/Nalankumar/MovieApi",
         },
         {
             name: "HR Management System",
-            img: "/assets/movieapi.jpg",
+            img: HRMS,
             github: "https://github.com/Nalankumar/HRMS"
         },
         {
             name: "Number Guessing Game",
-            img: "/assets/movieapi.jpg",
+            img: NumberGuessingGame,
             github: "https://github.com/Nalankumar/Number_Guessing_Game"
         },
         {
             name: "Netflix Landing Page Clone",
-            img: "./assets/projects/netflix.png",
+            img: Netflix,
             github: "https://github.com/Nalankumar/Netflix_clone"
         },
         {
-            name: "Netflix clone",
-            img: "/assets/movieapi.jpg",
-            github: "githublink"
+            name: "Agrohub",
+            img: Agrohub,
+            github: "https://github.com/Nalankumar/agrohub"
         }
     ],
 };
