@@ -7,7 +7,7 @@ export default function Nav() {
         <Logo />
       </div>
       {/*Navbar for smaller screens*/}
-      <div className="flex justify-end drawer drawer-end w-[90%] z-10 md:hidden">
+      <div className="flex justify-end drawer drawer-end w-[80vw] z-10 md:hidden">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           <label htmlFor="my-drawer" className="btn btn-circle drawer-button">
@@ -26,22 +26,17 @@ export default function Nav() {
           <div className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
             <div  className="btn btn-md btn-ghost">
               <div className="indicator">
-                <a href="#home">Home</a>
+                <a href="#home" className="text-[1rem]">Home</a>
               </div>
             </div>
             <div  className="btn btn-ghost">
               <div className="indicator">
-                <a href="#aboutme">About me</a>
+                <a href="#projects" className="text-[1rem]">Projects</a>
               </div>
             </div>
             <div  className="btn btn-ghost">
               <div className="indicator">
-                <a href="#projects">Projects</a>
-              </div>
-            </div>
-            <div  className="btn btn-ghost">
-              <div className="indicator">
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="text-[1rem]">Contact</a>
               </div>
             </div>
           </div>
