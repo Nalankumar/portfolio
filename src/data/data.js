@@ -20,6 +20,11 @@ export const data = {
     },
     projects: [
         {
+            name: "Todo List",
+            img: Agrohub,
+            github: "https://github.com/Nalankumar/Todolist"
+        },
+        {
             name: "MovieAPI",
             img: Netflix,
             github: "https://github.com/Nalankumar/MovieApi",
@@ -43,6 +48,11 @@ export const data = {
             name: "Agrohub",
             img: Agrohub,
             github: "https://github.com/Nalankumar/agrohub"
+        },
+        {
+            name: "Weather App",
+            img: Agrohub,
+            github: "https://github.com/Nalankumar/weather-app"
         }
     ],
 };
