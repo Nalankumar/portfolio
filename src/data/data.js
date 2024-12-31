@@ -2,6 +2,7 @@ import Netflix from './../assets/projects/netflix.png'
 import NumberGuessingGame from './../assets/projects/ngg.jpg'
 import HRMS from './../assets/projects/hrms.png'
 import Agrohub from './../assets/projects/agrohub.png'
+import WeatherApp from './../assets/projects/weather-app.png'
 
 export const data = {
     name: " Thirunalankumar V",
@@ -17,6 +18,7 @@ export const data = {
         front_end: ["HTML","CSS","Javascript","ReactJS","TailwindCSS"],
         back_end: ["Java","Python","SpringBoot", "nodejs"],
         dbms: ["SQL","MongoDB"],
+        tools: ["Git", "GitHub", "Maven", "AWS Cloud"]
     },
     projects: [
         {
@@ -51,7 +53,7 @@ export const data = {
         },
         {
             name: "Weather App",
-            img: Agrohub,
+            img: WeatherApp,
             github: "https://github.com/Nalankumar/weather-app"
         }
     ],
