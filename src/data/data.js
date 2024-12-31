@@ -2,8 +2,8 @@ import Netflix from './../assets/projects/netflix.png'
 import NumberGuessingGame from './../assets/projects/ngg.jpg'
 import HRMS from './../assets/projects/hrms.png'
 import Agrohub from './../assets/projects/agrohub.png'
-import WeatherApp from './../assets/projects/weather-app.PNG'
-import Todolist from './../assets/projects/todo.PNG'
+import WeatherApp from './../assets/projects/weather-app.png'
+import Todolist from './../assets/projects/todo.png'
 
 export const data = {
     name: " Thirunalankumar V",
